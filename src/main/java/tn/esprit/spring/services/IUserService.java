@@ -8,6 +8,7 @@ public interface IUserService {
 	 
 	List<User> retrieveAllUsers(); 
 	User addUser(User u);
+	User addUser1(User u);
 	void deleteUser(String id);
 	User updateUser(User u);
 	User retrieveUser(String id);
